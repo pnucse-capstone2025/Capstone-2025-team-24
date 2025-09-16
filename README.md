@@ -1,64 +1,26 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/nRcUn8vA)
-# Template for Capstone
-이 레파지토리는 학생들이 캡스톤 프로젝트 결과물을 위한 레파지토리 생성시에 참고할 내용들을 담고 있습니다.
-1. 레파지토리 생성
-2. 레파지토리 구성
-3. 레파지토리 제출 
-4. README.md 가이드라인
-5. README.md 작성팁
-
----
-
-## 1. 레파지토리 생성
-- [https://classroom.github.com/a/nRcUn8vA](https://classroom.github.com/a/nRcUn8vA)
-- 위 Github Classroom 링크에 접속해 본인 조의 github 레파지토리를 생성하세요.
-
-<img width="700" alt="깃헙 클래스룸 레포 생성" src="https://github.com/user-attachments/assets/34ca1f43-c2cd-4880-a39e-0dafd889c35f" />
-
-- 레포지토리 생성 시 팀명은 `TEAM-{조 번호}` 형식으로 생성하세요.
-- 예를 들어, 2025년도 3조의 팀명은 `TEAM-03` 입니다.
-- 이 경우 `Capstone2025-team-03`이란 이름으로 레파지토리가 생성됩니다.
-
----
-
-## 2. 레파지토리 구성
-- 레파지토리 내에 README.md 파일 생성하고 아래의 가이드라인과 작성팁을 참고하여 README.md 파일을 작성하세요. (이 레파지토리의 SAMPLE_README.md 참조)
-- 레파지토리 내에 docs 디렉토리를 생성하고 docs 디렉토리 내에는 과제 수행 하면서 작성한 각종 보고서, 발표자료를 올려둡니다. (이 레파지토리의 docs 디렉토리 참조)
-- 그 밖에 레파지토리의 폴더 구성은 과제 결과물에 따라 자유롭게 구성하되 가급적 코드의 목적이나 기능에 따라 디렉토리를 나누어 구성하세요.
-
----
-
-## 3. 레파지토리 제출 
-
-- **`[주의]` 레파지토리 제출**은 해당 레파지토리의 ownership을 **학과 계정**으로 넘기는 것이므로 되돌릴 수 없습니다.
-- **레파지토리 제출** 전, 더 이상 수정 사항이 없는지 다시 한번 확인하세요.
-- github 레파지토리에서 Settings > General > Danger zone > Transfer 클릭
-  <img src="https://github.com/user-attachments/assets/cb2361d4-e07e-4b5d-9116-aa80dddd8a8b" alt="소유주 변경 경로" width="500" />
-  
-- [ Specify an organization or username ]에 'PNUCSE'를 입력하고 확인 메세지를 입력하세요.
-  <img src="https://github.com/user-attachments/assets/7c63955d-dcfe-4ac3-bdb6-7d2620575f3a" alt="소유주 변경" width="400" />
-
----
-
-## 4. README.md 가이드 라인
-- README 파일 작성시에 아래의 5가지 항목의 내용은 필수적으로 포함해야 합니다.
-- 아래의 항목이외에 프로젝트의 이해를 돕기 위한 내용을 추가해도 됩니다.
-- SAMPLE_README.md 이 단순한 형태의 예제이니 참고하세요.
-
-```markdown
 ### 1. 프로젝트 배경
 #### 1.1. 국내외 시장 현황 및 문제점
-> 시장 조사 및 기존 문제점 서술
+다양한 분야에서 데이터를 구조화해서 사용하고 있다. 그러나 요리 레시피는 여전히 자연어로 보관되며
+컴퓨터가 이해하기 어려운 비정형 정보로 사용되고 있다. 동시에 코딩의 대중화로 많은 사람들이 프로그래밍을 접하고 있지만
+텍스트 기반 프로그래밍 언어는 비개발자가 접근하기 어렵다는 점이 남아있다.
 
 #### 1.2. 필요성과 기대효과
-> 왜 이 프로젝트가 필요한지, 기대되는 효과 등
+본 프로젝트는 요리를 프로그래밍할 수 있는가? 라는 질문에서 출발하여
+블록형 코딩을 통해 요리 과정을 구조화하고 누구나 조작 가능한 형태로 전환하려는 시도를 담는다.
+이 시스템은 레시피 자동화, 공유, 수정을 쉽게 만들어줄 뿐만 아니라 이후
+디지털 조리 도우미나 스마트 주방 시스템과의 연계 가능성도 열어준다.
 
 ### 2. 개발 목표
 #### 2.1. 목표 및 세부 내용
-> 전체적인 개발 목표, 주요 기능 및 기획 내용
+이 프로젝트에서는 요리용 코딩언어를 Scratch 방식의 블록 인터페이스로 구현하여,
+사용자가 시각적으로 각 요리 단계와 흐름을 쉽게 인식하고 구성할 수 있도록 돕는 도구를 개발하는 것을 목표로 한다.
+각 블록은 크게 재료와 동작, 제어 블록으로 구성되며, 사용자는 이를 드래그 앤 드롭하여 요리 과정을 설계할 수 있다.
+이러한 시스템을 통해 사용자는 요리법을 단순한 텍스트가 아닌 블록 기반의 구조화된 코드 형태로 직관적으로 표현하고,
+조리 순서를 시각적으로 이해하고 조작할 수 있다.
 
 #### 2.2. 기존 서비스 대비 차별성 
-> 유사 서비스 비교 및 차별점 부각
+블록코딩 서비스에는 스크래치가 있다. 코딩 교육용 서비스로, 요리에 특화된 서비스가 아닌 점에서 차별이 된다.
+관련된 도메인에는 Fastfood가 있다. Fastfood는 자연어 생성 중심 접근 연구로, 하나의 시스템이라고 보기 보단 요리를 규칙 기반으로 정의하는 연구에 가깝다고 볼 수 있다. 이런 기존 서비스와 차별되는 점은 요리에 특화되어 있다는 점으로, 자신만의 레시피를 블록형태로 만들어 저장할 수 있다는 점이 가장 큰 차이점이다.
 
 #### 2.3. 사회적 가치 도입 계획 
 > 프로젝트의 공공성, 지속 가능성, 환경 보호 등
@@ -67,7 +29,17 @@
 > 이미지 혹은 텍스트로 시스템 아키텍쳐 작성
 >
 #### 3.2. 사용 기술
-> 프론트엔드, 백엔드, API 등 구체 기술 스택
+![java 21](https://img.shields.io/badge/Java%2021-007396?style=flat-square&logo=openjdk&logoColor=white)
+![spring boot 3.3](https://img.shields.io/badge/Spring%20boot%203.3-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![mongodb](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+</br>
+![AWS EC2](https://img.shields.io/badge/AWS%20EC2-FF9900?style=flat-square&logo=amazonec2&logoColor=white)
+</br>
+![React](https://img.shields.io/badge/-React%2018-4894FE?style=flat-square&logo=react&logoColor=white)
+![blockly](https://img.shields.io/badge/Blockly-FFCA28?style=flat-square&logo=google&logoColor=black)
+</br>
+![netlify](https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white)
+</div>
 
 ### 4. 개발 결과
 #### 4.1. 전체 시스템 흐름도
@@ -96,142 +68,21 @@
 
 ### 7. 팀 구성
 #### 7.1. 팀원별 소개 및 역할 분담
->
+
+**Backend (BE)**
+
+| 구분 | 이름 |  | 역할 분담 |
+|---|---|---|---|
+| BE | [김도엽](https://github.com/Doyeop-02) | <img src="https://avatars.githubusercontent.com/u/127001462?v=4" width="80" alt="김도엽 아바타"> | 백엔드 개발(이메일 인증, 사용자 도메인 등), 백엔드 배포 및 자동 배포, 블록 설계 |
+| BE · 팀장 | [박혜연](https://github.com/hyyyh0x) | <img src="https://avatars.githubusercontent.com/u/141637975?v=4" width="80" alt="박혜연 아바타"> | DB 연결, 프론트엔드 자동 배포, 블록 설계, Swagger 구현, Figma 디자인 |
+
+**Frontend (FE)**
+
+| 구분 | 이름 |  | 역할 분담 |
+|---|---|---|---|
+| FE | [정종현](https://github.com/general706) | <img src="https://avatars.githubusercontent.com/u/171523870?v=4" width="80" alt="정종현 아바타"> | 프론트엔드 개발(서비스 화면, Blockly 구현 등), 블록 설계, Figma 디자인 |
+  
 #### 7.2. 팀원 별 참여 후기
 > 개별적으로 느낀 점, 협업, 기술적 어려움 극복 사례 등
 
 ### 8. 참고 문헌 및 출처
-
-```
-
-## 5. README.md 작성팁 
-* 마크다운 언어를 이용해 README.md 파일을 작성할 때 참고할 수 있는 마크다운 언어 문법을 공유합니다.  
-* 다양한 예제와 보다 자세한 문법은 [이 문서](https://www.markdownguide.org/basic-syntax/)를 참고하세요.
-
-### 5.1. 헤더 Header
-```
-# This is a Header 1
-## This is a Header 2
-### This is a Header 3
-#### This is a Header 4
-##### This is a Header 5
-###### This is a Header 6
-####### This is a Header 7 은 지원되지 않습니다.
-```
-<br />
-
-### 5.2. 인용문 BlockQuote
-```
-> This is a first blockqute.
->	> This is a second blockqute.
->	>	> This is a third blockqute.
-```
-> This is a first blockqute.
->	> This is a second blockqute.
->	>	> This is a third blockqute.
-<br />
-
-### 5.3. 목록 List
-* **Ordered List**
-```
-1. first
-2. second
-3. third  
-```
-1. first
-2. second
-3. third
-<br />
-
-* **Unordered List**
-```
-* 하나
-  * 둘
-
-+ 하나
-  + 둘
-
-- 하나
-  - 둘
-```
-* 하나
-  * 둘
-
-+ 하나
-  + 둘
-
-- 하나
-  - 둘
-<br />
-
-### 5.4. 코드 CodeBlock
-* 코드 블럭 이용 '``'
-```
-여러줄 주석 "```" 이용
-"```
-#include <stdio.h>
-int main(void){
-  printf("Hello world!");
-  return 0;
-}
-```"
-
-단어 주석 "`" 이용
-"`Hello world`"
-
-* 큰 따움표(") 없이 사용하세요.
-``` 
-<br />
-
-### 5.5. 링크 Link
-```
-[Title](link)
-[부산대학교 정보컴퓨터공학부](https://cse.pusan.ac.kr/cse/index..do)
-
-<link>
-<https://cse.pusan.ac.kr/cse/index..do>
-``` 
-[부산대학교 정보컴퓨터공학부](https://cse.pusan.ac.kr/cse/index..do)
-
-<https://cse.pusan.ac.kr/cse/index..do>
-<br />
-
-### 5.6. 강조 Highlighting
-```
-*single asterisks*
-_single underscores_
-**double asterisks**
-__double underscores__
-~~cancelline~~
-```
-*single asterisks* <br />
-_single underscores_ <br />
-**double asterisks** <br />
-__double underscores__ <br />
-~~cancelline~~  <br />
-<br />
-
-### 5.7. 이미지 Image
-```
-<img src="image URL" width="600px" title="Title" alt="Alt text"></img>
-![Alt text](image URL "Optional title")
-```
-- 웹에서 작성한다면 README.md 내용 안으로 이미지를 드래그 앤 드롭하면 이미지가 생성됩니다.
-- 웹이 아닌 로컬에서 작성한다면, github issue에 이미지를 드래그 앤 드롭하여 image url 을 얻을 수 있습니다. (URL만 복사하고 issue는 제출 안 함.)
-  <img src="https://github.com/user-attachments/assets/0fe3bff1-7a2b-4df3-b230-cac4ef5f6d0b" alt="이슈에 image 올림" width="600" />
-  <img src="https://github.com/user-attachments/assets/251c6d42-b36b-4ad4-9cfa-fa2cc67a9a50" alt="image url 복사" width="600" />
-
-
-### 5.8. 유튜브 영상 추가
-```markdown
-[![영상 이름](유튜브 영상 썸네일 URL)](유튜브 영상 URL)
-[![부산대학교 정보컴퓨터공학부 소개](http://img.youtube.com/vi/zh_gQ_lmLqE/0.jpg)](https://www.youtube.com/watch?v=zh_gQ_lmLqE)    
-```
-[![부산대학교 정보컴퓨터공학부 소개](http://img.youtube.com/vi/zh_gQ_lmLqE/0.jpg)](https://www.youtube.com/watch?v=zh_gQ_lmLqE)    
-
-- 이때 유튜브 영상 썸네일 URL은 유투브 영상 URL로부터 다음과 같이 얻을 수 있습니다.
-
-- `Youtube URL`: https://www.youtube.com/watch?v={동영상 ID}
-- `Youtube Thumbnail URL`: http://img.youtube.com/vi/{동영상 ID}/0.jpg 
-- 예를 들어, https://www.youtube.com/watch?v=zh_gQ_lmLqE 라고 하면 썸네일의 주소는 http://img.youtube.com/vi/zh_gQ_lmLqE/0.jpg 이다.
-
