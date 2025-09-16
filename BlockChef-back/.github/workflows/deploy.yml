@@ -1,0 +1,35 @@
+name: Deploy BlockChef Backend
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v3
+
+      - name: Deploy to EC2
+        uses: appleboy/ssh-action@v1.0.0
+        with:
+          host: ${{ secrets.EC2_HOST }}
+          username: ${{ secrets.EC2_USERNAME }}
+          key: ${{ secrets.EC2_KEY }}
+          script: |
+            cd ~/BlockChef-back
+            git pull origin master
+        
+            echo "${{ secrets.APP_SECRET_PROPERTIES }}" > src/main/resources/application-secret.properties
+
+            ./gradlew build -x test
+            cp build/libs/project-0.0.1-SNAPSHOT.jar ~/deploy/project.jar
+
+            sudo systemctl daemon-reload
+            sudo systemctl restart blockchef
+
+            echo "배포 완료"
+
