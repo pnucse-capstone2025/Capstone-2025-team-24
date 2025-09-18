@@ -26,8 +26,8 @@
 > 프로젝트의 공공성, 지속 가능성, 환경 보호 등
 ### 3. 시스템 설계
 #### 3.1. 시스템 구성도
-> 이미지 혹은 텍스트로 시스템 아키텍쳐 작성
->
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/0ad6eb46-2f4f-492b-b06c-4deedd80af7b" />
+
 #### 3.2. 사용 기술
 ![java 21](https://img.shields.io/badge/Java%2021-007396?style=flat-square&logo=openjdk&logoColor=white)
 ![spring boot 3.3](https://img.shields.io/badge/Spring%20boot%203.3-6DB33F?style=flat-square&logo=springboot&logoColor=white)
@@ -43,8 +43,8 @@
 
 ### 4. 개발 결과
 #### 4.1. 전체 시스템 흐름도
-> 기능 흐름 설명 및 도식화 가능
->
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/506d4aca-696c-4f7b-b7a6-0f4eeb221b39" />
+
 #### 4.2. 기능 설명 및 주요 기능 명세서
 > 주요 기능에 대한 상세 설명, 각 기능의 입력/출력 및 설명
 >
@@ -83,6 +83,10 @@
 | FE | [정종현](https://github.com/general706) | <img src="https://avatars.githubusercontent.com/u/171523870?v=4" width="80" alt="정종현 아바타"> | 프론트엔드 개발(서비스 화면, Blockly 구현 등), 블록 설계, Figma 디자인 |
   
 #### 7.2. 팀원 별 참여 후기
-> 개별적으로 느낀 점, 협업, 기술적 어려움 극복 사례 등
+| 팀원 | 느낀 점 |
+|------|---------|
+| <img src="https://avatars.githubusercontent.com/u/127001462?v=4" width="230"><br>[김도엽](https://github.com/Doyeop-02) | 이번 프로젝트를 수행하면서 일상에서 사용하는 간단한 페이지, 버튼 하나에 들어가는 작은 기능들까지도 개발자의 수고가 들어가 있음을 체감하였다. 협업을 하는 과정에서 종종 서로 같은 생각과 이해를 공유한다 생각하고 넘어갔는데 정말 사소하게 다른 시각때문에 나중에 일이 틀어지는걸 경험했다. 이를 통해 작은 부분까지도 자세하게 의견을 공유하고 계속 확인하며 넘어가는 의사소통이 매우 중요하다고 생각했다. spring을 처음 접하기에 생기는 기술적 어려움도 많았다. 이는 인프런이나 블로그, chatGPT를 사용해서 전체적인 구조부터 이해하고 세부적인 기술을 익힘으로써 해결하였다. |
+| <img src="https://avatars.githubusercontent.com/u/141637975?v=4" width="230"><br>[박혜연](https://github.com/hyyyh0x) | |
+| <img src="https://avatars.githubusercontent.com/u/171523870?v=4" width="230"><br>[정종현](https://github.com/general706) | |
 
 ### 8. 참고 문헌 및 출처
