@@ -23,7 +23,8 @@
 관련된 도메인에는 Fastfood가 있다. Fastfood는 자연어 생성 중심 접근 연구로, 하나의 시스템이라고 보기 보단 요리를 규칙 기반으로 정의하는 연구에 가깝다고 볼 수 있다. 이런 기존 서비스와 차별되는 점은 요리에 특화되어 있다는 점으로, 자신만의 레시피를 블록형태로 만들어 저장할 수 있다는 점이 가장 큰 차이점이다.
 
 #### 2.3. 사회적 가치 도입 계획 
-> 프로젝트의 공공성, 지속 가능성, 환경 보호 등
+레시피를 블록으로 저장한다는 점에서 코딩과 요리를 접목하여 배울 수 있고, 코딩과 요리에 쉽게 접근할 수 있다. 나아가 레시피의 자동화를 쉽게 만들어 주방 시스템과의 연계도 가능하게 한다.
+
 ### 3. 시스템 설계
 #### 3.1. 시스템 구성도
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/0ad6eb46-2f4f-492b-b06c-4deedd80af7b" />
@@ -54,11 +55,10 @@
 > 멘토 피드백과 적용한 사례 정리
 
 ### 5. 설치 및 실행 방법
->
 #### 5.1. 설치절차 및 실행 방법
-> 설치 명령어 및 준비 사항, 실행 명령어, 포트 정보 등
+[서비스 링크](https://blockchef-front.netlify.app/)
 #### 5.2. 오류 발생 시 해결 방법
-> 선택 사항, 자주 발생하는 오류 및 해결책 등
+개발자에게 문의. 
 
 ### 6. 소개 자료 및 시연 영상
 #### 6.1. 프로젝트 소개 자료
@@ -71,22 +71,27 @@
 
 **Backend (BE)**
 
-| 구분 | 이름 |  | 역할 분담 |
+| 구분 | 이름 | 역할 분담 | 연락처 |
 |---|---|---|---|
-| BE | [김도엽](https://github.com/Doyeop-02) | <img src="https://avatars.githubusercontent.com/u/127001462?v=4" width="80" alt="김도엽 아바타"> | 백엔드 개발(이메일 인증, 사용자 도메인 등), 백엔드 배포 및 자동 배포, 블록 설계 |
-| BE · 팀장 | [박혜연](https://github.com/hyyyh0x) | <img src="https://avatars.githubusercontent.com/u/141637975?v=4" width="80" alt="박혜연 아바타"> | DB 연결, 프론트엔드 자동 배포, 블록 설계, Swagger 구현, Figma 디자인 |
+| BE | <div align="center"><img src="https://avatars.githubusercontent.com/u/127001462?v=4" width="80" alt="김도엽 아바타"></br>[김도엽](https://github.com/Doyeop-02) </div>| 백엔드 개발(이메일 인증, 사용자 도메인 등), 백엔드 배포 및 자동 배포, 블록 설계 | nicedog02@pusan.ac.kr |
+| BE · 팀장 | <div align="center"><img src="https://avatars.githubusercontent.com/u/141637975?v=4" width="80" alt="박혜연 아바타"></br>[박혜연](https://github.com/hyyyh0x) </div>| DB 연결, 프론트엔드 자동 배포, 블록 설계, Swagger 구현, Figma 디자인 | hyyyh0x@pusan.ac.kr |
 
 **Frontend (FE)**
 
-| 구분 | 이름 |  | 역할 분담 |
+| 구분 | 이름 | 역할 분담 | 연락처 |
 |---|---|---|---|
-| FE | [정종현](https://github.com/general706) | <img src="https://avatars.githubusercontent.com/u/171523870?v=4" width="80" alt="정종현 아바타"> | 프론트엔드 개발(서비스 화면, Blockly 구현 등), 블록 설계, Figma 디자인 |
+| FE | <div align="center"><img src="https://avatars.githubusercontent.com/u/171523870?v=4" width="80" alt="정종현 아바타"></br>[정종현](https://github.com/general706)</div> | 프론트엔드 개발(서비스 화면, Blockly 구현 등), 블록 설계, Figma 디자인 | general706@pusan.ac.kr ||
   
 #### 7.2. 팀원 별 참여 후기
 | 팀원 | 느낀 점 |
 |------|---------|
-| <img src="https://avatars.githubusercontent.com/u/127001462?v=4" width="230"><br>[김도엽](https://github.com/Doyeop-02) | 이번 프로젝트를 수행하면서 일상에서 사용하는 간단한 페이지, 버튼 하나에 들어가는 작은 기능들까지도 개발자의 수고가 들어가 있음을 체감하였다. 협업을 하는 과정에서 종종 서로 같은 생각과 이해를 공유한다 생각하고 넘어갔는데 정말 사소하게 다른 시각때문에 나중에 일이 틀어지는걸 경험했다. 이를 통해 작은 부분까지도 자세하게 의견을 공유하고 계속 확인하며 넘어가는 의사소통이 매우 중요하다고 생각했다. spring을 처음 접하기에 생기는 기술적 어려움도 많았다. 이는 인프런이나 블로그, chatGPT를 사용해서 전체적인 구조부터 이해하고 세부적인 기술을 익힘으로써 해결하였다. |
-| <img src="https://avatars.githubusercontent.com/u/141637975?v=4" width="230"><br>[박혜연](https://github.com/hyyyh0x) | |
-| <img src="https://avatars.githubusercontent.com/u/171523870?v=4" width="230"><br>[정종현](https://github.com/general706) | |
+| <div align="center"><img src="https://avatars.githubusercontent.com/u/127001462?v=4" width="230"><br>[김도엽](https://github.com/Doyeop-02)</div> | 이번 프로젝트를 수행하면서 일상에서 사용하는 간단한 페이지, 버튼 하나에 들어가는 작은 기능들까지도 개발자의 수고가 들어가 있음을 체감하였다. 협업을 하는 과정에서 종종 서로 같은 생각과 이해를 공유한다 생각하고 넘어갔는데 정말 사소하게 다른 시각때문에 나중에 일이 틀어지는걸 경험했다. 이를 통해 작은 부분까지도 자세하게 의견을 공유하고 계속 확인하며 넘어가는 의사소통이 매우 중요하다고 생각했다. spring을 처음 접하기에 생기는 기술적 어려움도 많았다. 이는 인프런이나 블로그, chatGPT를 사용해서 전체적인 구조부터 이해하고 세부적인 기술을 익힘으로써 해결하였다. |
+| <div align="center"><img src="https://avatars.githubusercontent.com/u/141637975?v=4" width="230"><br>[박혜연](https://github.com/hyyyh0x)</div> | |
+| <div align="center"><img src="https://avatars.githubusercontent.com/u/171523870?v=4" width="230"><br>[정종현](https://github.com/general706)</div> | |
 
 ### 8. 참고 문헌 및 출처
+[1] Scratch [Online]. Available: https://scratch.mit.edu/</br>
+[2] Louis Mahon, Carl Vogel, "The Proof is in the Pudding: Using Automated Theorem Proving to Generate Cooking Recipes," 10, Mar 2022</br>
+[3] geeksforgeeks “Introduction to Programming Languages” [Online]. Available: https://www.geeksforgeeks.org/computer-science-fundamentals/introduction-to-programming-languages</br>
+[4] Blockly guide [Online]. Available: https://developers.google.com/blockly/guides/get-started/what-is-blockly?hl=ko</br>
+[5] MongoDB introduction [Online]. Available: https://www.mongodb.com/ko-kr/resources/basics/databases/document-databases
