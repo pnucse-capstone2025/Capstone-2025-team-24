@@ -75,7 +75,8 @@
 
 ### 6. 소개 자료 및 시연 영상
 #### 6.1. 프로젝트 소개 자료
-> PPT 등
+docs -> 발표자료에 있다.
+
 #### 6.2. 시연 영상
 > 영상 링크 또는 주요 장면 설명
 
@@ -99,7 +100,7 @@
 | 팀원 | 느낀 점 |
 |------|---------|
 | <div align="center"><img src="https://avatars.githubusercontent.com/u/127001462?v=4" width="230"><br>[김도엽](https://github.com/Doyeop-02)</div> | 이번 프로젝트를 수행하면서 일상에서 사용하는 간단한 페이지, 버튼 하나에 들어가는 작은 기능들까지도 개발자의 수고가 들어가 있음을 체감하였다. 협업을 하는 과정에서 종종 서로 같은 생각과 이해를 공유한다 생각하고 넘어갔는데 정말 사소하게 다른 시각때문에 나중에 일이 틀어지는걸 경험했다. 이를 통해 작은 부분까지도 자세하게 의견을 공유하고 계속 확인하며 넘어가는 의사소통이 매우 중요하다고 생각했다. spring을 처음 접하기에 생기는 기술적 어려움도 많았다. 이는 인프런이나 블로그, chatGPT를 사용해서 전체적인 구조부터 이해하고 세부적인 기술을 익힘으로써 해결하였다. |
-| <div align="center"><img src="https://avatars.githubusercontent.com/u/141637975?v=4" width="230"><br>[박혜연](https://github.com/hyyyh0x)</div> | |
+| <div align="center"><img src="https://avatars.githubusercontent.com/u/141637975?v=4" width="230"><br>[박혜연](https://github.com/hyyyh0x)</div> | 협업에 대해서 많이 배웠고, 특히 팀장이 되어서 팀을 이끌어 나가는 것에 대해 많이 배우게 되었다. 아직 많이 부족하다는 것도 알게 되었으며, 새로 경험하는 기술도 있어서 재미있게 참여할 수 있었다. 팀원들과 함께 협업해가며 보고서 쓰는 방법, 서비스 개발과 관련되어 많은 도움을 받으며 공부할 수 있어 좋은 경험이 되었다.|
 | <div align="center"><img src="https://avatars.githubusercontent.com/u/171523870?v=4" width="230"><br>[정종현](https://github.com/general706)</div> | |
 
 ### 8. 참고 문헌 및 출처
