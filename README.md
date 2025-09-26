@@ -78,7 +78,7 @@
 docs -> 발표자료에 있다.
 
 #### 6.2. 시연 영상
-[![BlockChef 시연 영상](http://img.youtube.com/vi/uQxJopbJNZc?si=yt5GdTi6_bb556FI/0.jpg)](https://youtu.be/uQxJopbJNZc?si=yt5GdTi6_bb556FI)
+[![BlockChef 시연 영상](http://img.youtube.com/vi/uQxJopbJNZc/0.jpg)](https://youtu.be/uQxJopbJNZc?si=yt5GdTi6_bb556FI)
 
 ### 7. 팀 구성
 #### 7.1. 팀원별 소개 및 역할 분담
